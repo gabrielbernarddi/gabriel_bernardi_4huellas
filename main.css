@@ -1,0 +1,234 @@
+body {
+    margin: 0px;
+}
+
+.nav-items {
+    text-align: center;
+    font-size: 1em;
+    font-family: 'Cabin', sans-serif;
+}
+
+.navbar {
+    padding: 50px 100px !important;
+    color: black !important;
+    height: 70px;
+    margin: 0px;
+    border: 0px;
+    background-color: rgb(123, 123, 246) !important;
+}
+
+.nav a {
+    font-family: 'Cabin', sans-serif;
+    font-size: 20px;
+    display: block;
+    padding: 15px 75px;
+    text-align: center;
+    text-decoration: none;
+    color: aliceblue;
+}
+
+main {
+    background-image: url(images/wallpaper.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.adopta {
+    color: white;
+    text-align: center;
+    font-size: 80px;
+    font-family: 'Luckiest Guy', sans-serif;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    border-style: solid;
+    border-color: black;
+    border-radius: 20px;
+    background-image: url(images/dog.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.dona {
+    color: black;
+    text-align: center;
+    font-size: 80px;
+    font-family: 'Luckiest Guy', sans-serif;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    border-style: solid;
+    border-color: black;
+    border-radius: 20px;
+    background-image: url(images/dog_and_cat.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.footer {
+    background-color: rgb(66, 66, 128);
+    padding: 10px 10px;
+    text-align: left;
+    font-size: 16px;
+    font-family: 'Cabin', sans-serif;
+    color: white;
+    height: 50px;
+    margin: 0px;
+    border: 0px;
+    position: sticky;
+    display: flex;
+    align-items: center;
+}
+
+.donaciones {
+    color: black;
+    text-align: center;
+    font-size: xx-large;
+    font-family: 'Cabin', sans-serif;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    border-style: solid;
+    border-color: black;
+    border-radius: 20px;
+    background-image: url(images/white.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.info-donaciones-1 {
+    color: black;
+    text-align: left;
+    font-size: large;
+    font-family: 'Cabin', sans-serif;
+    display: block;
+    position: relative;
+    left: 20px;
+}
+
+.info-donaciones-2 {
+    color: rgb(123, 123, 246);
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Cabin', sans-serif;
+    display: block;
+}
+
+.contacto {
+    color: black;
+    text-align: center;
+    font-size: xx-large;
+    font-family: 'Cabin', sans-serif;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    border-style: solid;
+    border-color: black;
+    border-radius: 20px;
+    background-image: url(images/white.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.contacto .paws {
+    text-align: center;
+    font-size: 18px;
+}
+
+.info-contacto {
+    color: black;
+    text-align: left;
+    font-size: large;
+    font-family: 'Cabin', sans-serif;
+    display: block;
+    position: relative;
+    left: 20px;
+    padding-right: 26px;
+}
+
+.form1 {
+    font-size: 20px;
+    text-align: left;
+    position: relative;
+    left: 10px;
+    right: 10px;
+}
+
+.mascotasenadopcion {
+    color: black;
+    font-family: 'Cabin', sans-serif;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    border-style: solid;
+    border-color: black;
+    border-radius: 20px;
+    background-image: url(images/white.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.mascota1 {
+    font-size: 20px;
+    position: relative;
+    left: 20px;
+}
+
+.detalles {
+    font-size: 18px;
+    color:black;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.paws {
+    text-align: center;
+}
+
+.blog {
+    color: black;
+    font-family: 'Cabin', sans-serif;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    border-style: solid;
+    border-color: black;
+    border-radius: 20px;
+    background-image: url(images/white.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.blog .blog-internal {
+    font-size: 18px;
+    color:black;
+    position: relative;
+    left: 20px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding-right: 32px;
+}
+
+.blog .blog-title {
+    font-size: 22px;
+    color:rgba(0, 0, 0, 0.334);
+}
+
+.blog .blog-reference {
+    font-size: 10px;
+    color:rgb(0, 0, 0);
+    text-align: right;
+}
