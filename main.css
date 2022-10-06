@@ -103,6 +103,25 @@ main {
     background-repeat: no-repeat;
 }
 
+.donaciones:hover {
+    animation-name: rotar;
+    animation-duration: 4s;
+}
+
+@keyframes rotar {
+    0% {
+        transform: rotate(0)
+    }
+
+    50% {
+        transform: rotate(160deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
 .info-donaciones-1 {
     color: black;
     text-align: left;
