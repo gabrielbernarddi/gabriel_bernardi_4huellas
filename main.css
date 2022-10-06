@@ -2,6 +2,10 @@ body {
     margin: 0px;
 }
 
+.titulo {
+    font-size: 25px !important;
+}
+
 .nav-items {
     text-align: center;
     font-size: 1em;
