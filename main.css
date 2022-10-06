@@ -114,7 +114,7 @@ main {
     }
 
     50% {
-        transform: rotate(160deg);
+        transform: rotate(180deg);
     }
 
     100% {
