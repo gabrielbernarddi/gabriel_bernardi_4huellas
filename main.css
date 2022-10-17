@@ -2,15 +2,11 @@ body {
     margin: 0px;
 }
 
-header {
-    background-color: rgb(123, 123, 246) !important;
-}
-
 .titulo {
     font-size: 4em !important;
-    text-decoration: none;
+    text-decoration: none !important;
     color: black !important;
-    font-family: 'Luckiest Guy', sans-serif;
+    font-family: 'Cabin', sans-serif;
 }
 
 .nav-items {
@@ -36,7 +32,7 @@ main {
     color: rgb(123, 123, 246);
     text-align: center;
     font-size: 80px;
-    font-family: 'Luckiest Guy', sans-serif;
+    font-family: 'Cabin', sans-serif;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -47,7 +43,7 @@ main {
     color: rgb(123, 123, 246);
     text-align: center;
     font-size: 80px;
-    font-family: 'Luckiest Guy', sans-serif;
+    font-family: 'Cabin', sans-serif;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -227,4 +223,9 @@ main {
     font-size: 10px;
     color:rgb(0, 0, 0);
     text-align: right;
+}
+
+
+header {
+    background-color: rgb(123, 123, 246) !important;
 }
