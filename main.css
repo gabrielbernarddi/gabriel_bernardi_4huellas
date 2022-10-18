@@ -3,10 +3,10 @@ body {
 }
 
 .titulo {
-    font-size: 4em !important;
+    font-size: 4em;
     text-decoration: none !important;
     color: black !important;
-    font-family: 'Cabin', sans-serif;
+    font-family: 'Luckiest Guy', sans-serif;
 }
 
 .nav-items {
@@ -33,10 +33,6 @@ main {
     text-align: center;
     font-size: 80px;
     font-family: 'Cabin', sans-serif;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
 }
 
 .dona {
@@ -44,10 +40,6 @@ main {
     text-align: center;
     font-size: 80px;
     font-family: 'Cabin', sans-serif;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
 }
 
 .footer {
@@ -158,23 +150,36 @@ main {
 .mascotasenadopcion {
     color: black;
     font-family: 'Cabin', sans-serif;
+}
+
+.mascota1 {
+    font-size: 20px;
     display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
     border-style: solid;
     border-color: black;
     border-radius: 20px;
     background-image: url(images/white.png);
     background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
 }
 
-.mascota1 {
+.mascota2 {
     font-size: 20px;
-    position: relative;
-    left: 20px;
+    display: block;
+    border-style: solid;
+    border-color: black;
+    border-radius: 20px;
+    background-image: url(images/white.png);
+    background-size: cover;
+}
+
+.mascota3 {
+    font-size: 20px;
+    display: block;
+    border-style: solid;
+    border-color: black;
+    border-radius: 20px;
+    background-image: url(images/white.png);
+    background-size: cover;
 }
 
 .detalles {
