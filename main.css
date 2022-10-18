@@ -3,7 +3,6 @@ body {
 }
 
 .titulo {
-    font-size: 4em;
     text-decoration: none !important;
     color: black !important;
     font-family: 'Luckiest Guy', sans-serif;
@@ -31,14 +30,12 @@ main {
 .adopta {
     color: rgb(123, 123, 246);
     text-align: center;
-    font-size: 80px;
     font-family: 'Cabin', sans-serif;
 }
 
 .dona {
     color: rgb(123, 123, 246);
     text-align: center;
-    font-size: 80px;
     font-family: 'Cabin', sans-serif;
 }
 
