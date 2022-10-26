@@ -1,233 +1,199 @@
 body {
-    margin: 0px;
-}
+  margin: 0px; }
 
 .titulo {
-    text-decoration: none !important;
-    color: black !important;
-    font-family: 'Luckiest Guy', sans-serif;
-}
+  text-decoration: none !important;
+  color: black !important;
+  font-family: 'Luckiest Guy', sans-serif; }
 
 .nav-items {
-    text-align: center;
-    font-size: 1em;
-    font-family: 'Cabin', sans-serif !important;
-}
+  text-align: center;
+  font-size: 1em;
+  font-family: 'Cabin', sans-serif !important; }
 
 .navbar {
-    color: black !important;
-    background-color: rgb(123, 123, 246) !important;
-    font-family: 'Cabin', sans-serif !important;
-}
+  color: black !important;
+  background-color: #7b7bf6 !important;
+  font-family: 'Cabin', sans-serif !important; }
 
 main {
-    background-image: url(images/wallpaper.jpeg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-}
+  background-image: url(images/wallpaper.jpeg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat; }
 
 .adopta {
-    color: rgb(123, 123, 246);
-    text-align: center;
-    font-family: 'Cabin', sans-serif;
-}
+  color: #7b7bf6;
+  text-align: center;
+  font-family: 'Luckiest Guy', sans-serif; }
 
 .dona {
-    color: rgb(123, 123, 246);
-    text-align: center;
-    font-family: 'Cabin', sans-serif;
-}
+  color: #7b7bf6;
+  text-align: center;
+  font-family: 'Luckiest Guy', sans-serif; }
 
 .footer {
-    background-color: rgb(66, 66, 128);
-    padding: 10px 10px;
-    text-align: left;
-    font-size: 16px;
-    font-family: 'Cabin', sans-serif;
-    color: white;
-    height: 88px;
-    margin: 0px;
-    border: 0px;
-    position: sticky;
-    display: flex;
-    align-items: center;
-}
+  background-color: #424280;
+  padding: 10px 10px;
+  text-align: left;
+  font-size: 16px;
+  font-family: 'Cabin', sans-serif;
+  color: white;
+  height: 5vw;
+  margin: 0px;
+  border: 0px;
+  position: sticky;
+  display: flex;
+  align-items: center; }
 
 .donaciones {
-    color: black;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-    border-style: solid;
-    border-color: black;
-    border-radius: 20px;
-    background-image: url(images/white.png);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-}
+  color: black;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  border-style: solid;
+  border-color: black;
+  border-radius: 20px;
+  background-image: url(images/white.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat; }
 
 .donaciones:hover {
-    animation-name: rotar;
-    animation-duration: 4s;
-}
+  animation-name: rotar;
+  animation-duration: 4s; }
 
 @keyframes rotar {
-    0% {
-        transform: rotate(0)
-    }
-
-    50% {
-        transform: rotate(180deg);
-    }
-
-    100% {
-        transform: rotate(360deg);
-    }
-}
+  0% {
+    transform: rotate(0); }
+  50% {
+    transform: rotate(180deg); }
+  100% {
+    transform: rotate(360deg); } }
 
 .donaciones-title {
-    text-align: center;
-    font-size: xx-large;
-    font-family: 'Cabin', sans-serif;
-}
+  text-align: center;
+  font-size: xx-large;
+  font-family: 'Cabin', sans-serif; }
 
 .info-donaciones-2 {
-    color: rgb(123, 123, 246);
-    text-align: center;
-    font-size: 20px;
-    font-family: 'Cabin', sans-serif;
-    display: block;
-}
+  color: #7b7bf6;
+  text-align: center;
+  font-size: 20px;
+  font-family: 'Cabin', sans-serif;
+  display: block; }
 
 .contacto {
-    color: black;
-    text-align: center;
-    font-size: xx-large;
-    font-family: 'Cabin', sans-serif;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-    border-style: solid;
-    border-color: black;
-    border-radius: 20px;
-    background-image: url(images/white.png);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-}
+  color: black;
+  text-align: center;
+  font-size: xx-large;
+  font-family: 'Cabin', sans-serif;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  border-style: solid;
+  border-color: black;
+  border-radius: 20px;
+  background-image: url(images/white.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat; }
 
 .contacto .paws {
-    text-align: center;
-    font-size: 18px;
-}
+  text-align: center;
+  font-size: 18px; }
 
 .info-contacto {
-    color: black;
-    text-align: left;
-    font-size: large;
-    font-family: 'Cabin', sans-serif;
-    display: block;
-    position: relative;
-    left: 20px;
-    padding-right: 26px;
-}
+  color: black;
+  text-align: left;
+  font-size: large;
+  font-family: 'Cabin', sans-serif;
+  display: block;
+  position: relative;
+  left: 20px;
+  padding-right: 26px; }
 
 .form1 {
-    font-size: 20px;
-    text-align: left;
-    position: relative;
-    left: 10px;
-    right: 10px;
-}
+  font-size: 20px;
+  text-align: left;
+  position: relative;
+  left: 10px;
+  right: 10px; }
 
 .mascotasenadopcion {
-    color: black;
-    font-family: 'Cabin', sans-serif;
-}
+  color: black;
+  font-family: 'Cabin', sans-serif; }
 
 .mascota1 {
-    font-size: 20px;
-    display: block;
-    border-style: solid;
-    border-color: black;
-    border-radius: 20px;
-    background-image: url(images/white.png);
-    background-size: cover;
-}
+  font-size: 20px;
+  display: block;
+  border-style: solid;
+  border-color: black;
+  border-radius: 20px;
+  background-image: url(images/white.png);
+  background-size: cover; }
 
 .mascota2 {
-    font-size: 20px;
-    display: block;
-    border-style: solid;
-    border-color: black;
-    border-radius: 20px;
-    background-image: url(images/white.png);
-    background-size: cover;
-}
+  font-size: 20px;
+  display: block;
+  border-style: solid;
+  border-color: black;
+  border-radius: 20px;
+  background-image: url(images/white.png);
+  background-size: cover; }
 
 .mascota3 {
-    font-size: 20px;
-    display: block;
-    border-style: solid;
-    border-color: black;
-    border-radius: 20px;
-    background-image: url(images/white.png);
-    background-size: cover;
-}
+  font-size: 20px;
+  display: block;
+  border-style: solid;
+  border-color: black;
+  border-radius: 20px;
+  background-image: url(images/white.png);
+  background-size: cover; }
 
 .detalles {
-    font-size: 18px;
-    color:black;
-    margin-top: 5px;
-    margin-bottom: 5px;
-}
+  font-size: 18px;
+  color: black;
+  margin-top: 5px;
+  margin-bottom: 5px; }
 
 .paws {
-    text-align: center;
-}
+  text-align: center; }
 
 .blog {
-    color: black;
-    font-family: 'Cabin', sans-serif;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-    border-style: solid;
-    border-color: black;
-    border-radius: 20px;
-    background-image: url(images/white.png);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-}
+  color: black;
+  font-family: 'Cabin', sans-serif;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  border-style: solid;
+  border-color: black;
+  border-radius: 20px;
+  background-image: url(images/white.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat; }
 
 .blog .blog-internal {
-    font-size: 18px;
-    color:black;
-    position: relative;
-    left: 20px;
-    margin-top: 5px;
-    margin-bottom: 5px;
-    padding-right: 32px;
-}
+  font-size: 18px;
+  color: black;
+  position: relative;
+  left: 20px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  padding-right: 32px; }
 
 .blog .blog-title {
-    font-size: 22px;
-    color:rgba(0, 0, 0, 0.334);
-}
+  font-size: 22px;
+  color: rgba(0, 0, 0, 0.334); }
 
 .blog .blog-reference {
-    font-size: 10px;
-    color:rgb(0, 0, 0);
-    text-align: right;
-}
-
+  font-size: 10px;
+  color: black;
+  text-align: right; }
 
 header {
-    background-color: rgb(123, 123, 246) !important;
-}
+  background-color: #7b7bf6 !important; }

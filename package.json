@@ -1,0 +1,25 @@
+{
+  "name": "gabriel_bernardi_4huellas",
+  "version": "1.0.0",
+  "description": "Pagina de adopcion de mascotas en Buenos Aires",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "node-sass --include-path scss main.scss main.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gabrielbernarddi/gabriel_bernardi_4huellas.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gabrielbernarddi/gabriel_bernardi_4huellas/issues"
+  },
+  "homepage": "https://github.com/gabrielbernarddi/gabriel_bernardi_4huellas#readme",
+  "devDependencies": {
+    "node-sass": "^7.0.3",
+    "nodemon": "^2.0.20"
+  }
+}
