@@ -1,0 +1,35 @@
+.mascotasenadopcion {
+    color: black;
+    font-family: 'Cabin', sans-serif;
+}
+
+.mascota1 {
+    font-size: 20px;
+    display: block;
+    border-style: solid;
+    border-color: black;
+    border-radius: 20px;
+    background-image: url(images/white.png);
+    background-size: cover;
+}
+
+.mascota2 {
+    @extend .mascota1;
+}
+
+.mascota3 {
+    @extend .mascota1;
+}
+
+@media (max-width: 800px) {
+    .mascota1, .mascota2, .mascota3 {
+        width: 80%;
+    }
+}
+
+.detalles {
+    font-size: 18px;
+    color:black;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}

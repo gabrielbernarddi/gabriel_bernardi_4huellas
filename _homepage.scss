@@ -1,0 +1,21 @@
+$title-color: rgb(123, 123, 246);
+$padding: 50px;
+
+.adopta {
+    color: $title-color;
+    text-align: center;
+    font-family: 'Luckiest Guy', sans-serif;
+}
+
+.dona {
+    color: $title-color;
+    text-align: center;
+    font-family: 'Luckiest Guy', sans-serif;
+}
+
+.img-homepage {
+    border-style:inherit;
+    border-radius: ($padding)-30;
+    padding-left: $padding;
+    padding-right: $padding;
+}

@@ -1,0 +1,42 @@
+.blog {
+    color: black;
+    font-family: 'Cabin', sans-serif;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    border-style: solid;
+    border-color: black;
+    border-radius: 20px;
+    background-image: url(images/white.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.blog .blog-internal {
+    font-size: 18px;
+    color:black;
+    position: relative;
+    left: 20px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding-right: 32px;
+}
+
+@media (max-width: 768px) {
+    .blog .blog-internal {
+        font-size: 12px;
+    }
+}
+
+.blog .blog-title {
+    font-size: 22px;
+    color:rgba(0, 0, 0, 0.334);
+}
+
+.blog .blog-reference {
+    font-size: 10px;
+    color:rgb(0, 0, 0);
+    text-align: right;
+}

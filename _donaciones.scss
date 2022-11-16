@@ -1,0 +1,59 @@
+.donaciones {
+    color: black;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    border-style: solid;
+    border-color: black;
+    border-radius: 20px;
+    background-image: url(images/white.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    &:hover {
+    animation-name: rotar;
+    animation-duration: 5s;
+    }
+}
+
+@keyframes rotar {
+    0% {
+        transform: rotate(0)
+    }
+
+    40% {
+        transform: rotate(10deg);
+    }
+
+    70% {
+        transform: rotate(-10deg);
+    }
+}
+
+.donaciones-title {
+    text-align: center;
+    font-size: 2em;
+    font-family: 'Cabin', sans-serif;
+}
+
+.info-donaciones-2 {
+    color: rgb(123, 123, 246);
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Cabin', sans-serif;
+    display: block;
+}
+
+@media (max-width: 600px) {
+    .donaciones {
+        width: 70%;
+    }
+    .donaciones-title {
+        font-size: 20px;
+    }
+    .info-donaciones {
+        font-size: 13px;
+}
+}
